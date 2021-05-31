@@ -13,9 +13,8 @@ def main():
         print("bzzz bzzz bzzz")
     if "--help" in opts:
         print(
-            "\nPlease type 'dragonfly' followed by "
-            "the name of the file or folder you wish "
-            "to receive commit data from\n"
+            "usage: dragonfly [OPTIONS] folder/file\n\n"
+	    "Options:\n"
             "\t--version\tprint version\n"
             "\t--help\t   print this message\n")
 
