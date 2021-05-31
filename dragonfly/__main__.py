@@ -13,8 +13,9 @@ def main():
         print("bzzz bzzz bzzz")
     if "--help" in opts:
         print(
-            "usage: dragonfly [OPTIONS] folder/file\n\n"
-	    "Options:\n"
+            "usage: dragonfly [folder/file]...\n\n"
+            "  Return commit data from given folder or file.\n\n"
+            "Options:\n"
             "\t--version\tprint version\n"
             "\t--help\t   print this message\n")
 
