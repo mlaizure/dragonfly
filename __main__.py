@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Main file for dragonfly function"""
 from sys import argv
-from analysis.analysis import analysis
-from analysis.to_json_string import to_json
+from dragonfly.analysis import analysis
+from dragonfly.to_json_string import to_json
 
 
 opts = [opt for opt in argv[1:] if opt.startswith("--")]
