@@ -1,0 +1,7 @@
+docker build .
+docker run -d -ti <Image id>
+docker exec <Container id> /bin/bash
+git clone https://github.com/mlaizure/dragonfly.git
+cd dragonfly
+pip3 install .
+ln -sf ~/dragonfly/__main__.py /usr/local/bin/dragonfly
