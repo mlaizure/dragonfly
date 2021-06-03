@@ -1,4 +1,6 @@
 import git
+import sys
+import time
 
 
 def analysis(repo, branch='master'):
