@@ -1,16 +1,24 @@
 import git
 import sys
 import time
+from git.exc import GitCommandError, NoSuchPathError
 
 
 def analysis(repo, branch='master'):
-    repo = git.Repo(repo)
+    try:
+        repo = git.Repo(repo)
+    except NoSuchPathError:
+        print("Uh oh! It looks like the repository you passed doesn't exist.")
+        return
     num_fixes = {}
 
-    repo.git.checkout(branch)
+    try:
+        repo.git.checkout(branch)
+    except GitCommandError:
+        print("Oops! It seems the branch you passed doesn't exist.")
+        return
 
     toolbar_width = 0
-
     sys.stdout.write("[%s]" % (" " * toolbar_width))
     sys.stdout.flush()
     sys.stdout.write("\b" * (toolbar_width + 1))
