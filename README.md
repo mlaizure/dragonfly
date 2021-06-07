@@ -9,7 +9,7 @@
 
 * Each file will have a number, which is the total number of commits that had the words "fix", "bug", or "issue"
 
-##How to use
+## How to use
 
 ```shell
 $ dragonfly --help
@@ -20,6 +20,7 @@ usage: dragonfly ABSOLUTE_PATH_TO_REPO [BRANCH]
 Options:
 	--version	print version
 	--help     print this message
+```
 
 To scan a repository:
 
@@ -39,7 +40,10 @@ $ ls
 drgnfly_analysis.json
 ```
 
-##Authors
+## Authors
+
 Maddi Laizure
+
 Corbin Vandeventer
+
 Finn Aspenson
