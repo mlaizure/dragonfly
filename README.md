@@ -1,7 +1,7 @@
 # dragonfly
 ![](assets/2-bug.png)
 
-##What does dragonfly do?
+## What does dragonfly do?
 
 * dragonfly will scan a git repository and return a json file filled with certain commit data
 

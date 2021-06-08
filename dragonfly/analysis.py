@@ -1,13 +1,13 @@
 import git
 import sys
 import time
-from git.exc import GitCommandError, NoSuchPathError
+from git.exc import GitCommandError, NoSuchPathError, InvalidGitRepositoryError
 
 
 def analysis(repo, branch='master'):
     try:
         repo = git.Repo(repo)
-    except NoSuchPathError:
+    except (NoSuchPathError, InvalidGitRepositoryError):
         print("Uh oh! It looks like the repository you passed doesn't exist.")
         return
     num_fixes = {}
