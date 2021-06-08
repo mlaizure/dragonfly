@@ -25,8 +25,7 @@ class BubbleChart:
         self.bubbles = np.ones((len(area), 4))
         self.bubbles[:, 2] = r
         self.bubbles[:, 3] = area
-        # self.maxstep = 2 * self.bubbles[:, 2].max() + self.bubble_spacing
-        self.maxstep = 2000
+        self.maxstep = 2 * self.bubbles[:, 2].max() + self.bubble_spacing
         self.step_dist = self.maxstep / 2
 
         # calculate initial grid layout for bubbles
@@ -160,9 +159,9 @@ def make_chart(num_fixes):
 
 
     bubble_chart = BubbleChart(area=chart_data['fix_num'],
-                               bubble_spacing=0.5)
+                               bubble_spacing=0.1)
 
-    bubble_chart.collapse()
+    bubble_chart.collapse(1)
 
     fig, ax = plt.subplots(subplot_kw=dict(aspect="equal"))
     bubble_chart.plot(
@@ -173,7 +172,6 @@ def make_chart(num_fixes):
     ax.set_title('Number of bug fixes per file')
 
     dpi = 200
-    width = 1920
-    height = 1080
-    fig.set_size_inches(width/dpi, height/dpi)
-    fig.savefig('heat_map.png', dpi=dpi)
+    size = 1920
+    fig.set_size_inches(size/dpi, size/dpi)
+    fig.savefig('heat_map.png', dpi=dpi, bbox_inches='tight')
