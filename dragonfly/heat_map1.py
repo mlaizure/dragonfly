@@ -5,13 +5,15 @@ def make_chart(num_fixes):
 
     files = []
     fixes = []
-    colors = ['#5A69AF', '#579E65', '#F9C784', '#FC944A', '#F24C00', '#00B825']
+    colors = ['#4477AA', '#66CCEE', '#228833', '#CCBB44', '#EE6677',
+              '#AA3377', '#BBBBBB']
     for key, value in num_fixes.items():
         files.append(key)
         fixes.append(value)
 
     fig1, ax1 = plt.subplots()
-    ax1.pie(fixes, labels=files, autopct='%1.0f')
+    ax1.pie(fixes, labels=files, colors=colors, autopct='%1.0f',
+            labeldistance=1.02)
     ax1.axis('equal')
     plt.title('Number of bug fixes per file', fontsize=20, pad=20)
 
