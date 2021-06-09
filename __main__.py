@@ -36,7 +36,10 @@ def main():
               "\t--help\t see more options\n")
         return
 
-    to_json(data, 'drgnfly_analysis')
+    if data is None:
+	return
+    else:
+	to_json(data, 'drgnfly_analysis')
     make_chart(data)
 
 

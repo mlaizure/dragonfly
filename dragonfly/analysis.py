@@ -24,7 +24,7 @@ def analysis(repo, branch='master'):
     sys.stdout.write("\b" * (toolbar_width + 1))
 
     for i, commit in enumerate(repo.iter_commits(branch)):
-        time.sleep(0.1)
+        time.sleep(0.001)
         keywords = ['fix', 'bug', 'issue']
         if any(keyword in commit.message for keyword in keywords):
             change_types = ['A', 'C', 'D', 'R', 'M', 'T']

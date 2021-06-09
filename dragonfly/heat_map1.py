@@ -7,9 +7,12 @@ def make_chart(num_fixes):
     fixes = []
     colors = ['#4477AA', '#66CCEE', '#228833', '#CCBB44', '#EE6677',
               '#AA3377', '#BBBBBB']
-    for key, value in num_fixes.items():
-        files.append(key)
-        fixes.append(value)
+    try:
+        for key, value in num_fixes.items():
+            files.append(key)
+            fixes.append(value)
+    except AttributeError:
+        return
 
     fig1, ax1 = plt.subplots()
     ax1.pie(fixes, labels=files, colors=colors, autopct='%1.0f',
