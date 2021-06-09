@@ -23,5 +23,5 @@ def make_chart(num_fixes):
     dpi = 200
     width = 1920
     height = 1080
-    fig1.set_size_inches(width/dpi, height/dpi)
+    fig1.set_size_inches(width / dpi, height / dpi)
     fig1.savefig('heat_map1.png', dpi=dpi, bbox_inches='tight')

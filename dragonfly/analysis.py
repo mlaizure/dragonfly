@@ -40,9 +40,9 @@ def analysis(repo, branch='master'):
         sys.stdout.write("-")
         sys.stdout.flush()
 
-
     sys.stdout.write("] Analysis Complete!\n")
     return num_fixes
+
 
 def is_ignored(path):
     ignore_ext = ['.json', '.md', '.ps', '.eps', '.txt', '.xml', '.xsl',

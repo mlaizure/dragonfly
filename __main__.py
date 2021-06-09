@@ -37,9 +37,9 @@ def main():
         return
 
     if data is None:
-	return
+        return
     else:
-	to_json(data, 'drgnfly_analysis')
+        to_json(data, 'drgnfly_analysis')
     make_chart(data)
 
 
