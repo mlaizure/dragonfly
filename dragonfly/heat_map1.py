@@ -15,10 +15,10 @@ def make_chart(num_fixes):
         return
 
     fig1, ax1 = plt.subplots()
-    ax1.pie(fixes, labels=files, colors=colors, autopct='%1.0f',
+    ax1.pie(fixes, labels=files, colors=colors, autopct='%1.0f%%',
             labeldistance=1.02)
     ax1.axis('equal')
-    plt.title('Number of bug fixes per file', fontsize=20, pad=20)
+    plt.title('Bug % by File', fontsize=20, pad=20)
 
     dpi = 200
     width = 1920
