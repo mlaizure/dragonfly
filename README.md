@@ -1,5 +1,5 @@
 # dragonfly
-![](assets/2-bug.png)
+![](assets/3-bug.png)
 
 ## What does dragonfly do?
 
@@ -53,8 +53,8 @@ Here is an example of the png file
 
 ## Authors
 
-Maddi Laizure
+Maddi Laizure - [Github](https://github.com/mlaizure)
 
-Corbin Vandeventer
+Corbin Vandeventer - [Github](https://github.com/forstupidityonly)
 
-Finn Aspenson
+Finn Aspenson - [Github](https://github.com/faspen)
