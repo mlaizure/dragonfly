@@ -1,4 +1,6 @@
-[Intro](#introduction) | [Features](#features) | [About](#about)
+<a href="#introduction" style="font-size:22px">Intro</a> |
+<a href="#features" style="font-size:22px">Features</a> |
+<a href="#about" style="font-size:22px">About</a>
 ![](/img/jeffrey-hamilton-qK0L-_1uH5g-unsplash.jpg)
 
 ## Introduction
