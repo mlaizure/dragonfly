@@ -1,4 +1,7 @@
 # dragonfly
+
+[![Pypi link](https://img.shields.io/pypi/v/git-dragonfly)](https://pypi.org/project/git-dragonfly/)
+
 ![](assets/3-bug.png)
 
 ## What does dragonfly do?
