@@ -1,6 +1,8 @@
-<a href="#introduction" style="font-size:22px">Intro</a> |
-<a href="#features" style="font-size:22px">Features</a> |
-<a href="#about" style="font-size:22px">About</a>
+<div style="font-size:22px">
+  <a href="#introduction">Intro</a> |
+  <a href="#features">Features</a> |
+  <a href="#about">About</a>
+</div>
 ![](/img/jeffrey-hamilton-qK0L-_1uH5g-unsplash.jpg)
 
 ## Introduction
