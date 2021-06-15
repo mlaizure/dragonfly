@@ -32,6 +32,8 @@
 * Development Team
   * Finn Aspenson
   * Corbin Vandeventer
-  * Maddi Laizure - [GitHub](https://github.com/mlaizure) [LinkedIn](https://www.linkedin.com/in/maddi-laizure/)
+  * Maddi Laizure
+    * [GitHub](https://github.com/mlaizure)
+    * [LinkedIn](https://www.linkedin.com/in/maddi-laizure/)
 * Project repository:
   * <https://github.com/mlaizure/dragonfly>
