@@ -27,4 +27,11 @@
 
 
 ## About
-* about us
+* Hi! I'm Maddi, one of the developers for Dragonfly. This project was inspired by my husband, who is a long-time software developer. We were discussing the lack of tools available to get insight into code maturity. We came up with the idea of Dragonfly as an easy way to get a quick snapshot of where in your code you've had to fix the most bugs. Dragonfly's analysis can help with targeting code refactorings, familiarizing a new developer with a code base, or getting a deeper look at code maturity.
+* Dragonfly is a first year Portfolio Project for [Holberton School](https://www.holbertonschool.com/).
+* Development Team
+  * Finn Aspenson
+  * Corbin Vandeventer
+  * Maddi Laizure - [GitHub](https://github.com/mlaizure) [LinkedIn](https://www.linkedin.com/in/maddi-laizure/)
+* Project repository:
+  * <https://github.com/mlaizure/dragonfly>
