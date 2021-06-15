@@ -11,6 +11,12 @@
 
 * dragonfly will also return a png file, containing a visualization of the json data
 
+## Installation
+
+```shell
+pip3 install git-dragonfly
+```
+
 ## System Requirements
 
 You need to have at least version 3.6 of Python to install and use this software
