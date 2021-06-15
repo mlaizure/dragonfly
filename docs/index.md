@@ -13,7 +13,17 @@
   * [![Pypi link](https://img.shields.io/pypi/v/git-dragonfly)](https://pypi.org/project/git-dragonfly/)
 
 ## Features
-* here are some
+* Dragonfly counts number of Git commit messages containing keywords associated with bug fixes for each file
+* Terminal output
+![](/img/dragonfly_terminal.png)
+  * Outputs each file name and commit message count to the terminal
+* JSON output
+![](/img/dragonfly_json.png)
+  * Outputs a JSON file with a dictionary containing the analysis results
+* Chart output
+![](/img/dragonfly_chart.png)
+![](/img/heat_map1.png)
+  * Outputs a pie chart visualization of the analysis results
 
 ## About
 * about us
