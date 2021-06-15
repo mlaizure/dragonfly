@@ -4,7 +4,7 @@
 
 * Bug analysis on Git repositories
 * Project repositoty with instructions for installation:
-<button type="button" onclick="https://github.com/mlaizure/dragonfly">Click here!</button>
+[![Repo link](https://img.shields.io/badge/project-repository-blue)](https://github.com/mlaizure/dragonfly)
 
 ## Features
 * here are some
