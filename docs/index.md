@@ -16,7 +16,7 @@
 * Dragonfly counts number of Git commit messages containing keywords associated with bug fixes for each file
 * Terminal output
   * Outputs each file name and commit message count to the terminal
-<div><img src="/img/dragonfly_terminal.png"></div>
+![](/img/dragonfly_terminal.png)
 * JSON output
   * Outputs a JSON file with a dictionary containing the analysis results
 ![](/img/dragonfly_json.png)
