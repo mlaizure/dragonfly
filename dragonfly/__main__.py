@@ -3,7 +3,7 @@
 from sys import argv
 from dragonfly.analysis import analysis
 from dragonfly.to_json_string import to_json
-from dragonfly.heat_map1 import make_chart
+from dragonfly.pie_chart import make_chart
 from dragonfly.terminal import terminal_chart
 
 
@@ -17,7 +17,7 @@ def main():
     terminal_display = False
     gen_chart = False
     if "--version" in opts:
-        print("0.1.0")
+        print("0.1.7")
         return
     if "--noises" in opts:
         print("bzzz bzzz bzzz")
@@ -54,7 +54,7 @@ def main():
         return
     elif gen_chart:
         make_chart(data)
-        print("heat_map1.png file generated")
+        print("pie_chart.png file generated")
         return
     else:
         to_json(data, 'drgnfly_analysis')

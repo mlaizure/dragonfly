@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name='git-dragonfly',
-    version='0.1.6',
+    version='0.1.7',
     description='Bug analysis on Git repositories',
     author='Finn Aspenson, Corbin Vandeventer, Maddi Laizure',
     url='https://mlaizure.github.io/dragonfly/',
