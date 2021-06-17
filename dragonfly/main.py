@@ -16,14 +16,14 @@ def main():
     terminal_display = False
     gen_chart = False
     if "--version" in opts:
-        print("0.1.11")
+        print("0.1.12")
         return
     if "--noises" in opts:
         print("bzzz bzzz bzzz")
         return
     if "--help" in opts:
         print(
-            "usage: dragonfly ABSOLUTE_PATH_TO_REPO [BRANCH]\n\n"
+            "usage: dragonfly PATH_TO_REPO [BRANCH]\n\n"
             "  Return commit data from given repository.\n\n"
             "Options:\n"
             "\t--version   print version\n"
@@ -41,7 +41,7 @@ def main():
     elif len(args) == 2:
         data = analysis(args[0], args[1])
     else:
-        print("usage: dragonfly ABSOLUTE_PATH_TO_REPO [BRANCH]\n"
+        print("usage: dragonfly PATH_TO_REPO [BRANCH]\n"
               "\t--help   see more options\n")
         return
 
