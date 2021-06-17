@@ -29,12 +29,12 @@
 
 ## About
 * Hi! I'm Maddi, one of the developers for Dragonfly. This project was inspired by my husband, who is a long-time software developer. We were discussing the lack of tools available to get insight into code maturity. We came up with the idea of Dragonfly as an easy way to get a quick snapshot of where in your code you've had to fix the most bugs. Dragonfly's analysis can help with targeting code refactorings, familiarizing a new developer with a code base, or getting a deeper look at code maturity.
+* Dragonfly is a first year Portfolio Project for [Holberton School](https://www.holbertonschool.com/).
 * Our project timeline in a nutshell:
   * One week for high-level brainstorming and feature discussions
   * One week for breaking down features into tasks and scheduling and assigning those tasks
   * One week for MVP development - a command line application that analyzes a Git repository and outputs a JSON file with the results
   * One week for stretch goals - terminal output, data visualization, and pip packaging
-* Dragonfly is a first year Portfolio Project for [Holberton School](https://www.holbertonschool.com/).
 * Development Team
   * Corbin Vandeventer
     * [GitHub](https://github.com/forstupidityonly)
