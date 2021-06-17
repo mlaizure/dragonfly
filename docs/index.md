@@ -13,7 +13,7 @@
   * [![Pypi link](https://img.shields.io/pypi/v/git-dragonfly)](https://pypi.org/project/git-dragonfly/)
 
 ## Features
-* Dragonfly counts number of Git commit messages containing keywords associated with bug fixes for each file
+* Dragonfly counts the number of Git commit messages containing keywords associated with bug fixes for each file
 * Terminal output
   * Outputs each file name and commit message count to the terminal
 ![](/img/dragonfly_terminal.png)
@@ -24,7 +24,8 @@
   * Outputs a pie chart visualization of the analysis results
 ![](/img/dragonfly_chart.png)
 ![](/img/pie_chart.png)
-
+* A screen recording of these features in action:
+  * [Click here!](https://youtu.be/ZEeEANYJS-g)
 
 ## About
 * Hi! I'm Maddi, one of the developers for Dragonfly. This project was inspired by my husband, who is a long-time software developer. We were discussing the lack of tools available to get insight into code maturity. We came up with the idea of Dragonfly as an easy way to get a quick snapshot of where in your code you've had to fix the most bugs. Dragonfly's analysis can help with targeting code refactorings, familiarizing a new developer with a code base, or getting a deeper look at code maturity.
