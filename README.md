@@ -28,7 +28,7 @@ You need to have at least version 3.6 of Python to install and use this software
 
 ```shell
 $ dragonfly --help
-usage: dragonfly ABSOLUTE_PATH_TO_REPO [BRANCH]
+usage: dragonfly PATH_TO_REPO [BRANCH]
 
   Return commit data from given repository.
 
@@ -88,10 +88,10 @@ To generate a .png file containing a visual representation of the data, type "--
 ```shell
 $ dragonfly ~/Absolute/path/to/repo [branch] --chart
 [-------------] Analysis Complete!
-heat_map1.png file generated
+pie_chart.png file generated
 $
 $ ls
-heat_map1.png
+pie_chart.png
 ```
 
 Here is an example of the png file
