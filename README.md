@@ -100,6 +100,10 @@ Here is an example of the png file
 
 NOTE: the numbers in each of the pie pieces are the percentages of commits that each file had with the keywords in their commit message. So "web_dynamic/static/scripts/2-hbnb.js" held 20% of all commits with the words 'bug', 'fix', or 'issue'.
 
+## Contributions
+
+Pull requests and issues are welcome. Please leave detailed comments about any changes you make
+
 ## Authors
 
 Maddi Laizure - [Github](https://github.com/mlaizure)
