@@ -104,6 +104,12 @@ NOTE: the numbers in each of the pie pieces are the percentages of commits that 
 
 Pull requests and issues are welcome. Please leave detailed comments about any changes you make
 
+## Related Projects
+
+* [erikbern/git-of-theseus](https://github.com/erikbern/git-of-theseus)
+
+* [ejwa/gitinspector](https://github.com/ejwa/gitinspector)
+
 ## Authors
 
 Maddi Laizure - [Github](https://github.com/mlaizure)
