@@ -112,8 +112,10 @@ Pull requests and issues are welcome. Please leave detailed comments about any c
 
 ## Authors
 
-Maddi Laizure - [Github](https://github.com/mlaizure)
+* Maddi Laizure - [Github](https://github.com/mlaizure)
 
-Corbin Vandeventer - [Github](https://github.com/forstupidityonly)
+* Corbin Vandeventer - [Github](https://github.com/forstupidityonly)
 
-Finn Aspenson - [Github](https://github.com/faspen)
+* Finn Aspenson - [Github](https://github.com/faspen)
+
+[License](https://github.com/mlaizure/dragonfly/blob/main/LICENSE)
