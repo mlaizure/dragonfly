@@ -11,10 +11,12 @@ args = [arg for arg in argv[1:] if arg not in opts]
 
 
 def main():
-    """Main func"""
+    """parses command line input"""
     data = {}
     terminal_display = False
     gen_chart = False
+
+    # checks for flags and executes relevant code
     if "--version" in opts:
         print("0.1.12")
         return
@@ -36,6 +38,7 @@ def main():
     if "--chart" in opts:
         gen_chart = True
 
+    # gets repo and branch name from input to into analysis function
     if len(args) == 1:
         data = analysis(args[0])
     elif len(args) == 2:
@@ -48,6 +51,7 @@ def main():
     if data is None:
         return
 
+    # creates output based on flags passed on cmd line
     if terminal_display:
         terminal_chart(data)
         return

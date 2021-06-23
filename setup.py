@@ -1,5 +1,6 @@
 import setuptools
 
+# sets package info using setuptools module
 setuptools.setup(
     name='git-dragonfly',
     version='0.1.12',
