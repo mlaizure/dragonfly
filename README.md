@@ -2,6 +2,8 @@
 
 [![Pypi link](https://img.shields.io/pypi/v/git-dragonfly)](https://pypi.org/project/git-dragonfly/)
 
+[![landing link](https://img.shields.io/badge/landing-page-blue)](https://mlaizure.github.io/dragonfly/)
+
 ![](assets/3-bug.png)
 
 ## What does dragonfly do?
@@ -102,7 +104,7 @@ NOTE: the numbers in each of the pie pieces are the percentages of commits that 
 
 ## Contributions
 
-Pull requests and issues are welcome. Please leave detailed comments about any changes you make
+Pull requests and issues are welcome. Please leave detailed comments about any changes you make.
 
 ## Related Projects
 
@@ -112,10 +114,14 @@ Pull requests and issues are welcome. Please leave detailed comments about any c
 
 ## Authors
 
-* Maddi Laizure - [Github](https://github.com/mlaizure)
+* Maddi Laizure - [Github](https://github.com/mlaizure) & [LinkedIn](https://www.linkedin.com/in/maddi-laizure/)
 
-* Corbin Vandeventer - [Github](https://github.com/forstupidityonly)
+* Corbin Vandeventer - [Github](https://github.com/forstupidityonly) & [LinkedIn](https://www.linkedin.com/in/corbin-vandeventer-6551b71a9/)
 
-* Finn Aspenson - [Github](https://github.com/faspen)
+* Finn Aspenson - [Github](https://github.com/faspen) & [LinkedIn](https://www.linkedin.com/in/finn-aspenson-0a23841b6/)
 
-[License](https://github.com/mlaizure/dragonfly/blob/main/LICENSE)
+## Licensing
+
+* Dragonfly is licensed under the *MIT license*.
+
+* License can be viewed [here](https://github.com/mlaizure/dragonfly/blob/main/LICENSE).
