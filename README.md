@@ -1,7 +1,6 @@
 # dragonfly
 
 [![Pypi link](https://img.shields.io/pypi/v/git-dragonfly)](https://pypi.org/project/git-dragonfly/)
-
 [![landing link](https://img.shields.io/badge/landing-page-blue)](https://mlaizure.github.io/dragonfly/)
 
 ![](assets/3-bug.png)
