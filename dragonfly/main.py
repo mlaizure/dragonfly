@@ -1,22 +1,23 @@
 #!/usr/bin/env python3
-"""Main file for dragonfly function"""
+"""Main file for dragonfly functionality."""
 from sys import argv
 from .analysis import analysis
 from .to_json_string import to_json
 from .pie_chart import make_chart
 from .terminal import terminal_chart
 
+# Gets command line input.
 opts = [opt for opt in argv[1:] if opt.startswith("--")]
 args = [arg for arg in argv[1:] if arg not in opts]
 
 
 def main():
-    """parses command line input"""
+    """Parses command line input."""
     data = {}
     terminal_display = False
     gen_chart = False
 
-    # checks for flags and executes relevant code
+    # Checks for flags and executes relevant code.
     if "--version" in opts:
         print("0.1.12")
         return
@@ -38,7 +39,7 @@ def main():
     if "--chart" in opts:
         gen_chart = True
 
-    # gets repo and branch name from input to into analysis function
+    # Gets repo and branch name from cmd line input into analysis function.
     if len(args) == 1:
         data = analysis(args[0])
     elif len(args) == 2:
@@ -51,7 +52,7 @@ def main():
     if data is None:
         return
 
-    # creates output based on flags passed on cmd line
+    # Creates output based on flags passed on cmd line.
     if terminal_display:
         terminal_chart(data)
         return
