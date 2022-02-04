@@ -13,7 +13,9 @@
 
 * Each file will have a number, which is the total number of commits that had the words "fix", "bug", or "issue"
 
-* dragonfly will also return a png file, containing a visualization of the json data
+* dragonfly can also return a png file, containing a visualization of the json data
+
+* dragonfly can also print the data to standard out
 
 ## Installation
 
@@ -111,6 +113,22 @@ Pull requests and issues are welcome. Please leave detailed comments about any c
 
 * [ejwa/gitinspector](https://github.com/ejwa/gitinspector)
 
+## About
+
+* Dragonfly is a first year Portfolio Project for Holberton School.
+* Our project timeline in a nutshell:
+  * One week for high-level brainstorming and feature discussions
+  * One week for breaking down features into tasks and scheduling and assigning those tasks
+  * One week for MVP development - a command line application that analyzes a Git repository and outputs a JSON file with the results
+  * One week for stretch goals - terminal output, data visualization, and pip packaging
+* Our most difficult challenges during intial development
+  * Finding well-documented libraries for gathering data from Git and visualizing that data
+  * Learning customization of in-depth configuration in MatPlotLib
+* Potential future features
+  * Keyword customizaiton: allowing the user to add and change keywords in order to analyze different aspects of the code
+  * Different styles of visualizations
+  * Analysis of how bug-related commits i.e. code stability changes over time
+
 ## Authors
 
 * Maddi Laizure - [Github](https://github.com/mlaizure) & [LinkedIn](https://www.linkedin.com/in/maddi-laizure/)
@@ -118,6 +136,10 @@ Pull requests and issues are welcome. Please leave detailed comments about any c
 * Corbin Vandeventer - [Github](https://github.com/forstupidityonly) & [LinkedIn](https://www.linkedin.com/in/corbin-vandeventer-6551b71a9/)
 
 * Finn Aspenson - [Github](https://github.com/faspen) & [LinkedIn](https://www.linkedin.com/in/finn-aspenson-0a23841b6/)
+
+### Maddi Laizure
+
+Hi! I’m Maddi, one of the developers for Dragonfly. This project was inspired by my husband, who is a long-time software developer. We were discussing the lack of tools available to get insight into code maturity. We came up with the idea of Dragonfly as an easy way to get a quick snapshot of where in your code you’ve had to fix the most bugs. Dragonfly’s analysis can help with targeting code refactorings, familiarizing a new developer with a code base, or getting a deeper look at code maturity.
 
 ## Licensing
 
