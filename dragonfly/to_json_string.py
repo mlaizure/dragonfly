@@ -1,7 +1,3 @@
-#!/usr.bin/python3
-"""JSON functions"""
-
-
 def to_json(adict, filename):
     """Accept dict, convert to json string, save to file."""
     import json
